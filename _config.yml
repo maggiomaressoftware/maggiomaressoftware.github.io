@@ -2,9 +2,9 @@ url: https://maresmaggiosoftware.github.io
 baseurl: 
 
 # Site settings
-title: Awesome Title
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Maggio Mares Software
+email: MaggioMaresSoftware@gmail.com
+description: "Create amazing websites alongside skilled professionals on a personal level. No robotic site generators here"
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
@@ -14,20 +14,9 @@ color:
 
 # Team names, titles and social links
 people:
-- name: Kay Garland
+- name: Angello Maggio
   pic: 1
-  position: Lead Designer
-  social:
-    - title: twitter
-      url: #
-    - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
-
-- name: Larry Parker
-  pic: 2
-  position: Lead Marketer
+  position: Full Stack Developer - Social Media Analyst
   social:
     - title: twitter
       url: #
@@ -36,16 +25,17 @@ people:
     - title: linkedin
       url: #
 
-- name: Diana Petersen
-  pic: 3
-  position: Lead Developer
+- name: Jonathan Mares
+  pic: 2
+  position: Dev Ops - Project Manager
   social:
     - title: twitter
       url: #
     - title: facebook
       url: #
-    - title: google-plus
+    - title: stack-overflow
       url: #
+
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
