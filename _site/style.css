@@ -17,6 +17,10 @@ body {
     color: #333;
 }
 
+.right-navbar-margin {
+    margin-top: 12px;
+}
+
 .text-muted {
     color: #777;
 }
