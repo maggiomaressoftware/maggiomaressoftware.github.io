@@ -19,6 +19,7 @@ body {
 
 .right-navbar-margin {
     margin-top: 12px;
+
 }
 
 .text-muted {
@@ -1081,7 +1082,7 @@ body a{
 		padding:0;
 	}
 	.nav {
-		background:#fff;
+		background: rgba(23, 23, 25, 0.72);
 	}
     .active {
         display: block;
