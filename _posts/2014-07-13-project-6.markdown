@@ -1,15 +1,13 @@
 ---
-title: Round Icons
-subtitle: Graphic Design
+title: Food House
+subtitle: Multi-Page Site
+url: foodhouse
 layout: default
 modal-id: 6
 date: 2014-07-15
 img: roundicons.png
 thumbnail: roundicons-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+category: Multi-Page
+description: Food House is a multi-page restaurant site that has an elegant, yet colorful feel to it. It features a slideshow landing pages that is not too intrusive, a simple welcome and about section that displays information in a sophisticated manner, zoom-in effect on fallery images, and a dynamic "Team" section.
 ---

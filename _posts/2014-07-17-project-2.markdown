@@ -1,15 +1,13 @@
 ---
-title: Escape
-subtitle: Website Design
+title: Eatery
+subtitle: Multi-page Site
+url: eatery
 layout: default
 modal-id: 2
 date: 2014-07-17
 img: escape.png
 thumbnail: escape-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+category: Multi-Page
+description: Eatery offers multiple pages to organize your information, each mobile-friendly and responsive. Also featured is a static 3-column menu, an organized "About Us" page, a side scrolling gallery, and a trendy landing page.
 ---
