@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="description" content="Create amazing websites alongside skilled professionals on a personal level. No robotic site generators here">
     <link rel="canonical" href="https://maresmaggiosoftware.github.ioeatery">
-
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
 
     <!-- Custom CSS & Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
     <link rel="stylesheet" href="/style.css">
@@ -377,33 +377,6 @@
             </div>
         </div>
     </section>
-    <!-- Clients Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -422,19 +395,57 @@
                         </div>
                     </div>
 
+
+                    <script>
+                        $(document).ready(function(){
+
+                            $('#col-md-6 contact_form').validate(
+                                    {
+                                        rules: {
+                                            name: {
+                                                minlength: 2,
+                                                required: true
+                                            },
+                                            email: {
+                                                required: true,
+                                                email: true
+                                            },
+                                            message: {
+                                                minlength: 2,
+                                                required: true
+                                            }
+                                        },
+                                        highlight: function(element) {
+                                            $(element).closest('.control-group').removeClass('success').addClass('error');
+                                        },
+                                        success: function(element) {
+                                            element
+                                                    .text('OK!').addClass('valid')
+                                                    .closest('.control-group').removeClass('error').addClass('success');
+                                        }
+                                    });
+                        }); // end document.ready
+                    </script>
+
                     <div class="col-md-6 contact_form">
                         <form>
                             <div class="column_1">
-                                <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                                <input id="name" type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
                             </div>
 
                             <div class="column_2">
-                                <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                                <input id="email" type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                            </div>
+
+                            <div class="column_2">
+                                <input id="phone" type="text" class="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
                             </div>
 
                             <div class="column_3">
-                                <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+                                <textarea id="message" value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
                             </div>
+
+
                             <div class="form-submit1">
                                 <label class="btn btn-primary btn-normal btn-inline " target="_self"><input type="submit" value="Send"></label>
                             </div>

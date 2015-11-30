@@ -16,19 +16,57 @@
                         </div>
                     </div>
 
+
+                    <script>
+                        $(document).ready(function(){
+
+                            $('#col-md-6 contact_form').validate(
+                                    {
+                                        rules: {
+                                            name: {
+                                                minlength: 2,
+                                                required: true
+                                            },
+                                            email: {
+                                                required: true,
+                                                email: true
+                                            },
+                                            message: {
+                                                minlength: 2,
+                                                required: true
+                                            }
+                                        },
+                                        highlight: function(element) {
+                                            $(element).closest('.control-group').removeClass('success').addClass('error');
+                                        },
+                                        success: function(element) {
+                                            element
+                                                    .text('OK!').addClass('valid')
+                                                    .closest('.control-group').removeClass('error').addClass('success');
+                                        }
+                                    });
+                        }); // end document.ready
+                    </script>
+
                     <div class="col-md-6 contact_form">
                         <form>
                             <div class="column_1">
-                                <input type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
+                                <input id="name" type="text" class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}">
                             </div>
 
                             <div class="column_2">
-                                <input type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                                <input id="email" type="text" class="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}">
+                            </div>
+
+                            <div class="column_2">
+                                <input id="phone" type="text" class="text" value="Phone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}">
                             </div>
 
                             <div class="column_3">
-                                <textarea value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
+                                <textarea id="message" value="Message:" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}">Message:</textarea>
                             </div>
+
+
                             <div class="form-submit1">
                                 <label class="btn btn-primary btn-normal btn-inline " target="_self"><input type="submit" value="Send"></label>
                             </div>
