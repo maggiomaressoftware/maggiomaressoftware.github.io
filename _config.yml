@@ -20,36 +20,36 @@ people:
   position: Full Stack Developer - Social Media Analyst
   social:
     - title: twitter
-      url: #
-    - title: facebook
-      url: #
+      url: https://www.twitter.com/maggioangello
+    - title: github
+      url: https://github.com/aNxello
     - title: linkedin
-      url: #
+      url: https://www.linkedin.com/in/angellomaggio
 
 - name: Jonathan Mares
   pic: 2
-  position: Dev Ops - Project Manager
+  position: Full Stack Developer - Dev Ops Engineer
   social:
-    - title: twitter
-      url: #
     - title: facebook
-      url: #
-    - title: stack-overflow
-      url: #
+      url: https://www.facebook.com/jmares93
+    - title: github
+      url: https://github.com/jm2242
+    - title: mouse-pointer
+      url: http://www.jonathanmares.com
 
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/maggiomares
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/maggiomares
-  - title: bitbucket 
-    url: http://bitbucket.org/maggiomaressoftware
-  - title: github
-    url: http://github.com/maggiomaressoftware
+#  - title: twitter
+#    url: http://twitter.com/maggiomares
+#  - title: facebook
+#    url:
+#  - title: stack-overflow
+#    url: http://stackoverflow.com/questions/tagged/maggiomares
+#  - title: bitbucket
+#    url: http://bitbucket.org/maggiomaressoftware
+#  - title: github
+#    url: http://github.com/maggiomaressoftware
 
 # Postal address (add as many lines as necessary)
 address:
