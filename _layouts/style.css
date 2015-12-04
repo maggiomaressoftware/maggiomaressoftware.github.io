@@ -1,4 +1,4 @@
-/*{% include css/bootstrap.min.css %}*/
+{% include css/bootstrap.min.css %}
 {% include css/agency.css %}
 {% include css/style2.css %}
 {% include css/contact.css%}
